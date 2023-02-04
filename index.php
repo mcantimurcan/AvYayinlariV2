@@ -108,7 +108,7 @@ include("views/partials/header.php");
         <div class="yayin-row">
             <div class="yayin-col">
               <i class="fa-solid fa-book"></i>
-                <h3>Türkçe</h3>
+                <h3>Anan</h3>
                 <a href="turkce" class="yayin-btn">Görüntüle</a>
             </div>
             <div class="yayin-col">
