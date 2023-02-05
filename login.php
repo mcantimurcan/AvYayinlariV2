@@ -81,7 +81,7 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="public/css/style.css" rel="stylesheet">
+    <link href="public/css/login.css" rel="stylesheet">
   </head>
   <body class="text-center">
     
@@ -104,8 +104,6 @@
     <p class="mt-5 mb-3 text-muted">Av Yayınları © 2021. Tüm Hakları Saklıdır.</p>
   </form>
 </main>
-
-
     
   </body>
 </html>
