@@ -1,10 +1,10 @@
 <?php
-include("partials/header.php");
+include("views/partials/header.php");
 ?>
 <div class="sub-header">
     <div class="sub-header-container">
-        <span>Anasayfa > İletişim</span>
-        <h1>İletişim</h1>
+        <span>Anasayfa > Kurumsal</span>
+        <h1>Kurumsal</h1>
     </div>
 </div>  
     <!--blog section-->
@@ -22,10 +22,6 @@ include("partials/header.php");
         </div>
     </section>
     <!--footer section-->
-    <?php
-include("partials/footer.php");
+<?php
+include("views/partials/footer.php");
 ?>
-    <!--JavaScript-->
-
-</body>
-</html>

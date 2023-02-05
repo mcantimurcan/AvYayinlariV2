@@ -1,6 +1,6 @@
 <?php
-include("partials/header.php");
-?> 
+include("views/partials/header.php");
+?>
 <div class="sub-header">
     <div class="sub-header-container">
         <span>Anasayfa > Kitaplar</span>
@@ -31,5 +31,5 @@ include("partials/header.php");
 </div>
 
 <?php
-include("partials/footer.php");
-?> 
+include("views/partials/header.php");
+?>

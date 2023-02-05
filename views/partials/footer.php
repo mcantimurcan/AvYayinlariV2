@@ -37,15 +37,15 @@
       <h3><span>AV</span> YAYINLARI</h3>
 
       <p class="footer-links">
-        <a href="/kurumsal" class="link-1">Kurumsal</a>
+        <a href="kurumsal.php" class="link-1">Kurumsal</a>
         
-        <a href="/iletisim">İletişim</a>
+        <a href="iletisim.php">İletişim</a>
       
-        <a href="/kvkk">KVKK Politikamız</a>
+        <a href="kvkk.php">KVKK Politikamız</a>
       
-        <a href="/cozumler">Çözümler</a>
+        <a href="cozumler.php">Çözümler</a>
         
-        <a href="/yayinlar">Yayınlar</a>
+        <a href="yayinlar.php">Yayınlar</a>
 
       </p>
 

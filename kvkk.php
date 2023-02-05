@@ -1,6 +1,6 @@
 <?php
-include("partials/header.php");
-?> 
+include("views/partials/header.php");
+?>
 <div class="sub-header">
     <div class="sub-header-container">
         <span>Anasayfa > Kvkk</span>
@@ -93,5 +93,5 @@ Talebinizin niteliğine göre bilgi ve belgelerin eksiksiz ve doğru olarak tara
         </p>
 </div>
 <?php
-include("partials/footer.php");
-?> 
+include("views/partials/footer.php");
+?>

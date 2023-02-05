@@ -81,13 +81,13 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="public/css/style.css" rel="stylesheet">
   </head>
   <body class="text-center">
     
 <main class="form-signin w-100 m-auto">
   <form style="margin-top: 100px" action="/" method="post">
-    <img class="mb-4" src="/../images/avyayınlari.jpg" alt="" width="72" height="72">
+    <img class="mb-4" src="public/images/avyayınlari.jpg" alt="" width="72" height="72">
     <h1 class="h3 mb-3 fw-normal">Admin Paneline Giriş</h1>
 
     <div class="form-floating">

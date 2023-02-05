@@ -1,5 +1,5 @@
 <?php
-include("partials/header.php");
+include("views/partials/header.php");
 ?>
 <div class="sub-header">
     <div class="sub-header-container">
@@ -30,10 +30,7 @@ include("partials/header.php");
         
     </section>
     <!--footer section-->
-    <?php
-include("partials/footer.php");
-?>
-    <!--JavaScript-->
 
-</body>
-</html>
+<?php
+include("views/partials/footer.php");
+?>
