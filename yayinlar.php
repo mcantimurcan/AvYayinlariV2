@@ -15,7 +15,7 @@ include("views/partials/header.php");
         <div class="yayin-col">
           <i class="fa-solid fa-book"></i>
             <h3>Türkçe</h3>
-            <a href="turkce" class="yayin-btn">Görüntüle</a>
+            <a href="views/dersler/turkce.php" class="yayin-btn">Görüntüle</a>
         </div>
         <div class="yayin-col">
           <i class="fa-solid fa-calculator"></i>

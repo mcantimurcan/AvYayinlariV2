@@ -1,4 +1,6 @@
-<%- include("../partials/header") -%> 
+<?php
+include("../partials/header.php");
+?>
 <div class="sub-header">
     <div class="sub-header-container">
         <span>Anasayfa > Yayınlar > Türkçe</span>
@@ -34,4 +36,6 @@
         </div>
     </div>
 </section>
-<%- include("../partials/footer") -%> 
+<?php
+include("../partials/footer.php");
+?>
