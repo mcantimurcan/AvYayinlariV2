@@ -1,5 +1,5 @@
 <?php
-include("views/partials/header.php");
+include("partials/header.php");
 ?>
 <div class="sub-header">
     <div class="sub-header-container">
@@ -41,9 +41,8 @@ include("views/partials/header.php");
             <h3>Din Kültürü ve Ahlak Bilgisi</h3>
             <a href="https://disk.yandex.com.tr/d/VqJJNzBd6UBH0g" class="yayin-btn">Görüntüle</a>
         </div>
-        
     </div>
 </section>
 <?php
-include("views/partials/footer.php");
+include("partials/footer.php");
 ?>

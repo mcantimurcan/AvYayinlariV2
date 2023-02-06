@@ -1,5 +1,5 @@
 <?php
-include("views/partials/header.php");
+include("partials/header.php");
 ?>
 <div class="sub-header">
     <div class="sub-header-container">
@@ -49,5 +49,5 @@ include("views/partials/header.php");
 </section>
     <!--footer section-->
 <?php
-include("views/partials/footer.php");
+include("partials/footer.php");
 ?>

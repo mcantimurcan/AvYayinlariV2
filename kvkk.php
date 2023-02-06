@@ -1,5 +1,5 @@
 <?php
-include("views/partials/header.php");
+include("partials/header.php");
 ?>
 <div class="sub-header">
     <div class="sub-header-container">
@@ -93,5 +93,5 @@ Talebinizin niteliğine göre bilgi ve belgelerin eksiksiz ve doğru olarak tara
         </p>
 </div>
 <?php
-include("views/partials/footer.php");
+include("partials/footer.php");
 ?>

@@ -1,5 +1,5 @@
 <?php
-include("views/partials/header.php");
+include("partials/header.php");
 ?>
 <link rel="stylesheet" href="public/css/slider.css">
 <main class="main-content">
@@ -181,5 +181,5 @@ include("views/partials/header.php");
 
    
 <?php
-include("views/partials/footer.php");
+include("partials/footer.php");
 ?>
