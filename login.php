@@ -1,3 +1,9 @@
+<?php
+session_start();
+?>
+
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -86,21 +92,21 @@
   <body class="text-center">
     
 <main class="form-signin w-100 m-auto">
-  <form style="margin-top: 100px" action="/" method="post">
+  <form style="margin-top: 100px" action="functions/authcode.php" method="POST">
     <img class="mb-4" src="public/images/avyayınlari.jpg" alt="" width="72" height="72">
     <h1 class="h3 mb-3 fw-normal">Admin Paneline Giriş</h1>
 
     <div class="form-floating">
-      <input type="text" class="form-control" name="fName" placeholder="First Name">
+      <input type="text" class="form-control" name="username" placeholder="First Name">
       <label for="floatingInput">Kullanıcı Adı</label>
     </div>
     <div class="form-floating">
-        <input type="password" id="middle" class="form-control" name="lName" placeholder="Last Name">
+        <input type="password" id="middle" class="form-control" name="password" placeholder="Last Name">
         <label for="floatingInput">Şifre</label>
     </div>    
     
 
-    <button style="margin-top: 30px;" class="w-100 btn btn-lg btn-primary" type="submit">Giriş Yap</button>
+    <button style="margin-top: 30px;" name="login-btn" class="w-100 btn btn-lg btn-primary" type="submit">Giriş Yap</button>
     <p class="mt-5 mb-3 text-muted">Av Yayınları © 2021. Tüm Hakları Saklıdır.</p>
   </form>
 </main>

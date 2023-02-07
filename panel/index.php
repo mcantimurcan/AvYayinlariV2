@@ -1,4 +1,13 @@
-<?php include("includes/header.php"); ?>
+<?php 
+session_start();
+if(!isset($_SESSION['auth'])){
+    header("Location: ../login.php");
+}
+?>
+
+<?php
+include("includes/header.php"); 
+?>
 
 <div class="container">
     <div class="row-mt-4">

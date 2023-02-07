@@ -1,4 +1,5 @@
 <?php
+session_start();
 include("partials/header.php");
 ?>
 <link rel="stylesheet" href="public/css/slider.css">
