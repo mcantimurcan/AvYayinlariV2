@@ -1,5 +1,5 @@
 <?php
-include("partials/header.php");
+include("header.php");
 ?>
 <div class="sub-header">
     <div class="sub-header-container">
@@ -23,5 +23,5 @@ include("partials/header.php");
     </section>
     <!--footer section-->
 <?php
-include("partials/footer.php");
+include("footer.php");
 ?>

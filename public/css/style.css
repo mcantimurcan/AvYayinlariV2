@@ -160,7 +160,7 @@ header .fa{
 
 /* Yayınlarımız Kısmı */
 .yayinlarimiz {
-    width: 80%;
+    width: 100%;
     margin: auto;
     margin-top: -50px;
     text-align: center;
@@ -178,14 +178,6 @@ p {
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
-}
-
-.yayin-row {
-    width: 80%;
-    margin-top: 20px;
-    margin-left: 10%;
-    display: flex;
-    justify-content: space-between;
 }
 
 .video-row {
