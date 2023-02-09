@@ -1,16 +1,12 @@
 <?php
 
-$host = "localhost";
-$username = "root";
-$password = "";
-$database = "avyayindb";
-
-//creating database connection
-$con = mysqli_connect($host, $username, $password, $database);
-
-//checking database connection
-if(!$con){
-    die("connection failed". mysqli_connect_error());
+try {
+	$con=new PDO("mysql:host=localhost;dbname=avyayindb;charset=utf8",'root','');
 }
+
+catch (PDOExpception $e) {
+	echo $e->getMessage();
+}
+
 
 ?>

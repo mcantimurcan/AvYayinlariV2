@@ -2,7 +2,8 @@
 session_start();
 include("header.php");
 
-$yayinsor = mysqli_query($con, "SELECT * FROM dersler");
+$yayinsor = $con->prepare("SELECT * FROM dersler ");
+$yayinsor->execute();
 
 ?>
 <link rel="stylesheet" href="public/css/slider.css">
@@ -110,12 +111,11 @@ $yayinsor = mysqli_query($con, "SELECT * FROM dersler");
     </div>
   </section>
   <section class="yayinlarimiz">
-    <label for="">YAYINLARIMIZ</label>
-    <h2>Akıllı Versiyon Yayınları Listesi</h2>
+    <h1>YAYINLARIMIZ</h1>
 
-    <div class="yayin-row row mt-3 text-center">
+    <div class="yayin-row row mt-4 text-center">
       <?php
-      while ($yayincek = mysqli_fetch_assoc($yayinsor)) {
+      while ($yayincek = $yayinsor->fetch(PDO::FETCH_ASSOC)) {
       ?>
         <div class="yayin-col">
           <i class="<?php echo $yayincek['yayin_logo'] ?>"></i>

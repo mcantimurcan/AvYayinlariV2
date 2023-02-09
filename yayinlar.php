@@ -1,7 +1,8 @@
 <?php
 include("header.php");
 
-$yayinsor = mysqli_query($con, "SELECT * FROM dersler");
+$yayinsor = $con->prepare("SELECT * FROM dersler ");
+$yayinsor->execute();
 
 ?>
 <div class="sub-header">
@@ -16,7 +17,7 @@ $yayinsor = mysqli_query($con, "SELECT * FROM dersler");
 
   <div class="yayin-row row mt-3 text-center">
     <?php
-    while ($yayincek = mysqli_fetch_assoc($yayinsor)) {
+    while ($yayincek = $yayinsor->fetch(PDO::FETCH_ASSOC)) {
     ?>
       <div class="yayin-col">
         <i class="<?php echo $yayincek['yayin_logo'] ?>"></i>

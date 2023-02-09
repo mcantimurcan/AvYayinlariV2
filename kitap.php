@@ -23,7 +23,7 @@ include("header.php");
 </div>
 <div class="video-row">
     <div class="wrapper">
-        <video width="800" height="600" controls>
+        <video width="1280" height="720" controls>
             <source src="videos/8-matematik.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -31,5 +31,5 @@ include("header.php");
 </div>
 
 <?php
-include("header.php");
+include("footer.php");
 ?>
