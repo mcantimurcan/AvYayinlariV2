@@ -6,7 +6,7 @@ include("header.php");
         <span>Anasayfa > Kitaplar</span>
         <h1>Kitaplar</h1>
     </div>
-</div> 
+</div>
 <div class="yayin-row">
     <img src="images/kitaplar/PNG/5.png" alt="" height="400px" width="340px">
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odit optio deserunt alias! Iure id officia, dolorum quia, accusamus possimus exercitationem aliquid laborum iusto architecto, sunt placeat assumenda. Provident, cum.
@@ -19,7 +19,7 @@ include("header.php");
         <a href="" id="z-button"><i class="fa-solid fa-download"></i> Z-Kitap</a> <br> <br> <br>
         <a href="" id="buy-button"><i class="fa-solid fa-cart-shopping"></i> Satın Al</a>
     </p>
-    
+
 </div>
 <div class="video-row">
     <div class="wrapper">
@@ -27,7 +27,7 @@ include("header.php");
             <source src="videos/8-matematik.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-    </div>    
+    </div>
 </div>
 
 <?php
