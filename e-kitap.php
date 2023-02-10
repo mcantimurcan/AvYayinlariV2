@@ -8,9 +8,9 @@ include("header.php");
     </div>
 </div>
 <!--e-kitap-->
-<section class="yayinlarimiz">
+<section class="cozumler">
 
-    <div class="yayin-row">
+    <div class="cozumler-row">
         <div class="yayin-col">
             <i class="fa-solid fa-graduation-cap"></i>
             <h3>Öğrenci Özel</h3>

@@ -7,8 +7,8 @@ include("header.php");
     <h1>Yazılılarımız</h1>
   </div>
 </div>
-<section class="yayinlarimiz">
-  <div class="yayin-row">
+<section class="cozumler">
+  <div class="cozumler-row">
     <div class="yayin-col">
       <i class="fa-solid fa-book"></i>
       <h3>Türkçe</h3>
@@ -25,7 +25,7 @@ include("header.php");
       <a href="https://disk.yandex.com.tr/d/VqJJNzBd6UBH0g" class="yayin-btn">Görüntüle</a>
     </div>
   </div>
-  <div class="yayin-row">
+  <div class="cozumler-row">
     <div class="yayin-col">
       <i class="fa-solid fa-flask"></i>
       <h3>Fen Bilimleri</h3>
