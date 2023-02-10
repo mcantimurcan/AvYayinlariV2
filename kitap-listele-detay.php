@@ -1,4 +1,20 @@
-<%- include("../../partials/header") -%>
+<?php
+include("header.php");
+
+$sinifsor = $con->prepare("SELECT * FROM siniflar where sinif_id=:sinif_id");
+$sinifsor->execute(array(
+    'sinif_id'=> $_GET['sinif']
+));
+$sinifcek = $sinifsor->fetch(PDO::FETCH_ASSOC);
+
+
+$yayinsor = $con->prepare("SELECT * FROM dersler where yayin_id=:yayin_id");
+$yayinsor->execute(array(
+    'yayin_id'=> $sinifcek['grup_adi']
+));
+$yayincek = $yayinsor->fetch(PDO::FETCH_ASSOC);
+
+?>
 <link rel="stylesheet" href="css/sinif.css">
 <div class="sub-header">
   <div class="sub-header-container">
@@ -14,4 +30,6 @@
         </div>
     </div>
 </div>
-<%- include("../../partials/footer") -%> 
+<?php
+include("footer.php");
+?>
