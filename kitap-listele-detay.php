@@ -22,23 +22,26 @@ $yayincek = $yayinsor->fetch(PDO::FETCH_ASSOC);
         <h1><?php echo $yayincek['yayin_adi'] ?></h1>
     </div>
 </div>
-
-<div class="yayin-row">
-    <?php
-    $kitapsor = $con->prepare("SELECT * FROM kitaplar where sinif_id=:sinif_id");
-    $kitapsor->execute(array(
-        'sinif_id' => $sinifcek['sinif_id']
-    ));
-
-    while ($kitapcek = $kitapsor->fetch(PDO::FETCH_ASSOC)) {
-    ?>
+<div class="cozumler" style="width: 30%">
+    <div class="yayin-row row mt-5 text-center">
         <div class="wrapper">
-            <div class="yayin-col">
-                <img src="public/images/kitaplar/PNG/<?php echo $kitapcek['kitap_kapak'] ?>" alt="" width="200px" height="250px">
-                <a id="sinifbuton" href="kitap-detay.php?kitap_id=<?php echo $kitapcek['kitap_id'] ?>"><?php echo $kitapcek['kitap_adi'] ?></a>
-            </div>
+            <?php
+            $kitapsor = $con->prepare("SELECT * FROM kitaplar where sinif_id=:sinif_id");
+            $kitapsor->execute(array(
+                'sinif_id' => $sinifcek['sinif_id']
+            ));
+
+            while ($kitapcek = $kitapsor->fetch(PDO::FETCH_ASSOC)) {
+            ?>
+
+                <div class="yayin-col">
+                    <img src="public/images/kitaplar/PNG/<?php echo $kitapcek['kitap_kapak'] ?>" alt="" width="200px" height="250px">
+                    <a id="sinifbuton" href="kitap-detay.php?kitap_id=<?php echo $kitapcek['kitap_id'] ?>"><?php echo $kitapcek['kitap_adi'] ?></a>
+                </div>
+            <?php } ?>
+
         </div>
-    <?php } ?>
+    </div>
 </div>
 <?php
 include("footer.php");

@@ -110,7 +110,7 @@ $yayinsor->execute();
       </div>
     </div>
   </section>
-  <section class="yayinlarimiz">
+  <section class="cozumler">
     <h1>YAYINLARIMIZ</h1>
 
     <div class="row mt-5">

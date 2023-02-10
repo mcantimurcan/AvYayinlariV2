@@ -21,11 +21,11 @@ $yayincek = $yayinsor->fetch(PDO::FETCH_ASSOC);
     <h1><?php echo $yayincek['yayin_adi'] ?></h1>
   </div>
 </div>
-<section class="yayinlarimiz">
+<section class="cozumler">
   <label for="">Yayınlarımız</label>
   <h2>Akıllı Versiyon Yayınları Listesi</h2>
 
-  <div class="yayin-row">
+  <div class="yayin-row row mt-5 text-center">
     <?php
     while ($sinifcek = $sinifsor->fetch(PDO::FETCH_ASSOC)) {
     ?>

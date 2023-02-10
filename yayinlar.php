@@ -11,11 +11,11 @@ $yayinsor->execute();
     <h1>Yayınlarımız</h1>
   </div>
 </div>
-<section class="yayinlarimiz">
+<section class="cozumler">
   <label for="">Yayınlarımız</label>
   <h2>Akıllı Versiyon Yayınları Listesi</h2>
 
-  <div class="yayin-row row mt-3 text-center">
+  <div class="yayin-row row mt-5 text-center">
     <?php
     while ($yayincek = $yayinsor->fetch(PDO::FETCH_ASSOC)) {
     ?>
