@@ -113,7 +113,7 @@ $yayinsor->execute();
   <section class="yayinlarimiz">
     <h1>YAYINLARIMIZ</h1>
 
-    <div class="yayin-row row mt-4 text-center">
+    <div class="row mt-5">
       <?php
       while ($yayincek = $yayinsor->fetch(PDO::FETCH_ASSOC)) {
       ?>

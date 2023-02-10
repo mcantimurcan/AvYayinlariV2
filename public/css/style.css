@@ -160,11 +160,10 @@ header .fa{
 
 /* Yayınlarımız Kısmı */
 .yayinlarimiz {
-    width: 100%;
-    margin: auto;
+    width: 80%;
+    margin: 100px;
     margin-top: -50px;
     text-align: center;
-    padding-top: 100px;
 }
 
 h1 {
