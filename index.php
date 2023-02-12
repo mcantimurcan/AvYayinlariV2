@@ -18,7 +18,7 @@ $yayinsor->execute();
               <div class="text">
                 <p>Avcı Serisi branş denemelerimizle LGS'yi bizimle AV'layın.</p>
               </div>
-              <a href="#" class="btn">
+              <a href="http://localhost/AvYayinlariV2/siniflar.php?yayin=41" class="btn">
                 <span class="btn-inner">İncele</span>
               </a>
             </div>
@@ -66,7 +66,7 @@ $yayinsor->execute();
               <div class="text">
                 <p>Averaj ve Nakavt denemelerimizle LGS'yi bizimle AV'layın.</p>
               </div>
-              <a href="#" class="btn">
+              <a href="http://localhost/AvYayinlariV2/siniflar.php?yayin=42" class="btn">
                 <span class="btn-inner">İncele</span>
               </a>
             </div>

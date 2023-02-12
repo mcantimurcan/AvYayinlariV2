@@ -15,7 +15,7 @@ $yayinsor->execute();
   <label for="">Yayınlarımız</label>
   <h2>Akıllı Versiyon Yayınları Listesi</h2>
 
-  <div class="yayin-row row mt-5 text-center">
+  <div class="row mt-5 text-center">
     <?php
     while ($yayincek = $yayinsor->fetch(PDO::FETCH_ASSOC)) {
     ?>

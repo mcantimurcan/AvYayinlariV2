@@ -22,27 +22,36 @@ $yayincek = $yayinsor->fetch(PDO::FETCH_ASSOC);
         <h1><?php echo $yayincek['yayin_adi'] ?></h1>
     </div>
 </div>
-<div class="cozumler" style="width: 30%">
-    <div class="yayin-row row mt-5 text-center">
-        <div class="wrapper">
-            <?php
-            $kitapsor = $con->prepare("SELECT * FROM kitaplar where sinif_id=:sinif_id");
-            $kitapsor->execute(array(
-                'sinif_id' => $sinifcek['sinif_id']
-            ));
+<section class="cozumler" style="width: 70%;">
+    <div class="row my-5">
+        <?php
+        $kitapsor = $con->prepare("SELECT * FROM kitaplar where sinif_id=:sinif_id");
+        $kitapsor->execute(array(
+            'sinif_id' => $sinifcek['sinif_id']
+        ));
 
-            while ($kitapcek = $kitapsor->fetch(PDO::FETCH_ASSOC)) {
-            ?>
-
-                <div class="yayin-col">
-                    <img src="public/images/kitaplar/PNG/<?php echo $kitapcek['kitap_kapak'] ?>" alt="" width="200px" height="250px">
-                    <a id="sinifbuton" href="kitap-detay.php?kitap_id=<?php echo $kitapcek['kitap_id'] ?>"><?php echo $kitapcek['kitap_adi'] ?></a>
+        while ($kitapcek = $kitapsor->fetch(PDO::FETCH_ASSOC)) {
+        ?>
+            <div class="col-sm-3 col-lg-3 mb-3">
+                <div class="product mb-0">
+                    <div class="product-thumb-info border-0 mb-3">
+                        <a href="kitap-detay.php?kitap_id=<?php echo $kitapcek['kitap_id'] ?>">
+                            <div class="product-thumb-info-image text-center">
+                                <img alt="" width="200" height="auto" class="img-fluid" src="public/images/kitaplar/PNG/<?php echo $kitapcek['kitap_kapak'] ?>">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="d-flex" style="justify-content:center;">
+                        <div>
+                            <a href="kitap-detay.php?kitap_id=<?php echo $kitapcek['kitap_id'] ?>" style="color: #000; text-decoration: none;"><?php echo $kitapcek['kitap_adi'] ?></a>
+                        </div>
+                    </div>
                 </div>
-            <?php } ?>
-
-        </div>
+            </div>
+        <?php } ?>
     </div>
-</div>
+</section>
+
 <?php
 include("footer.php");
 ?>
