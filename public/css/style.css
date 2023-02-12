@@ -207,6 +207,7 @@ p {
     padding: 20px 12px;
     transition: 0.5s;
     box-sizing: border-box;
+    margin-bottom: 20px;
 }
 
 .yayin-col i{

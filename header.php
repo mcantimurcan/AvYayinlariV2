@@ -104,8 +104,8 @@ include("config/dbcon.php");
 
     <div class="container">
       <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-        <a href="/"><img src="public/images/AV_YAYINLARI_LOGO.png" width="50px" height="50px" alt="logo"></a>
-        <a href="/" class="headerlink">AV YAYINLARI</a>
+        <a href="index.php"><img src="public/images/AV_YAYINLARI_LOGO.png" width="50px" height="50px" alt="logo"></a>
+        <a href="index.php" class="headerlink">AV YAYINLARI</a>
         <div class="nav-links" id="navLinks">
           <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>

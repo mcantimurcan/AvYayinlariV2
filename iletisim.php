@@ -52,7 +52,7 @@ include "header.php";
                             <textarea maxlength="5000" data-msg-required="Mesajınızı giriniz!" rows="6" class="form-control text-3 h-auto py-2" name="message" id="message" required=""></textarea>
                         </div>
                     </div>
-                    <div class="form-row">
+                    <div class="form-row mt-2">
                         <div class="form-group col">
                             <input type="submit" value="Mesaj Gönder" class="btn btn-primary btn-modern" data-loading-text="Loading...">
                         </div>
